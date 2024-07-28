@@ -1,5 +1,7 @@
-FROM postgres:13
+FROM postgres:latest
+
+# Установите переменные окружения для PostgreSQL
 ENV POSTGRES_DB=mydb
 ENV POSTGRES_USER=Saatar
 ENV POSTGRES_PASSWORD=111
-EXPOSE 5432
+
